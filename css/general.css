@@ -6,3 +6,26 @@
 body {
     font-size: 16px;
 }
+
+/***** variables *****/
+:root {
+    --bg_orange: #cd3d0f;
+}
+
+/***** reset padding for heading and paragraph *****/
+h1, h2, h3, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***** gap *****/
+.column_gap {
+    column-gap: 1vw;
+}
+
+.row_gap {
+    row-gap: 20px;
+}
