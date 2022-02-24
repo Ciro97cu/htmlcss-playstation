@@ -1,0 +1,26 @@
+/***** header *****/
+.img_wrapper {
+    width: 100px;
+}
+
+.dropdown a::after {
+    content: none;
+}
+
+.dropdown a {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+[src*="chevron"] {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.badge.rounded-pill {
+}
+
+[src*="lens"] {
+    width: 30px;
+}
+
