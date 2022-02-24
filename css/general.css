@@ -1,0 +1,8 @@
+/***** css rules star selector and body *****/
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
