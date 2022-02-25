@@ -23,8 +23,12 @@
 }
 
 a.bg-dark:hover {
-    outline: white solid 2px;
-    box-shadow: 0 0 0 5px var(--bs-dark);
+transition: outline .15s ease-in-out;
+}
+
+a.bg-dark:hover {
+    outline: var(--bs-dark) solid 4px;
+    outline-offset: 2px;
 }
 
 /***** section #jumbotron *****/
@@ -43,12 +47,12 @@ a.bg-dark:hover {
 #jumbotron .row a {
     background-color: var(--bg_orange);
     padding: 10px 15px;
-    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: outline .15s ease-in-out;
 }
 
 #jumbotron .row a:hover {
-    outline: white solid 2px;
-    box-shadow: 0 0 0 5px var(--bg_orange);
+    outline: var(--bg_orange) solid 3px;
+    outline-offset: 4px;
 }
 
 #jumbotron h1 {
@@ -70,9 +74,13 @@ a.bg-dark:hover {
     font-size: 45px;
 }
 
+#new .wrapper-a a {
+    transition: outline .15s ease-in-out;
+}
+
 #new .wrapper-a a:hover {
-    outline: white solid 2px;
-    box-shadow: 0 0 0 5px var(--bs-primary);
+    outline: var(--bs-primary) solid 4px;
+    outline-offset: 2px;
 }
 
 #new .text-secondary {
@@ -88,6 +96,34 @@ a.bg-dark:hover {
     min-height: 62px;
 }
 
+#new .col-lg-2 > img {
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+}
+
+#new .col-lg-2:hover > img{
+    transform: translateY(-25px);
+    outline-offset: 4px;
+    outline: 5px solid #2d64e6;
+}
+
+.offset-md-1 {
+    box-shadow: 0 3px 0 var(--bs-primary);
+}
+
+.hover_opacity {
+    transition: box-shadow .25s ease-in-out;
+}
+
+.hover_opacity:hover {
+    box-shadow: 0 3px 0 var(--bs-primary);
+    cursor: pointer;
+}
+
+.hover_opacity:hover > img {
+    opacity: 1 !important;
+}
+
 /***** section jumbotwo *****/
 #jumbotwo {
     padding: 50px 0 100px;
@@ -101,14 +137,13 @@ a.bg-dark:hover {
 #jumbotwo .row a {
     background-color: var(--bg_orange);
     padding: 10px 15px;
-    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: outline .15s ease-in-out;
 }
 
 #jumbotwo .row a:hover {
-    outline: white solid 2px;
-    box-shadow: 0 0 0 5px var(--bg_orange);
+    outline: var(--bg_orange) solid 3px;
+    outline-offset: 4px;
 }
-
 
 #jumbotwo h1 {
     font-size: 2.5rem;
@@ -152,13 +187,9 @@ a.bg-dark:hover {
     font-size: 2rem;
 }
 
-#play4 a {
-    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
 #play4 a:hover {
-    outline: white solid 2px;
-    box-shadow: 0 0 0 5px var(--bs-primary);
+    outline: var(--bs-primary) solid 4px;
+    outline-offset: 2px;
 }
 /***** section psplus *****/
 #psplus {
@@ -173,12 +204,13 @@ a.bg-dark:hover {
     background-color: var(--bg_b_light_grey);
     font-weight: 600;
     padding: 10px 15px;
-    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: outline .15s ease-in-out;
+
 }
 
 #psplus .col-12 > a:hover {
-    outline: #2d64e6 solid 2px;
-    box-shadow: 0 0 0 5px rgb(217, 218, 220);
+    outline: var(--bs-primary) solid 4px;
+    outline-offset: 5px;
 }
 
 #psplus .wrapper_a {
@@ -208,12 +240,12 @@ a.bg-dark:hover {
     font-weight: 600;
     padding: 10px 15px;
     color: var(--c_dark_blue) !important;
-    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: outline .15s ease-in-out;
 }
 
 #play_now .col-12 > a:hover {
-    outline: var(--bg_dark_blue) solid 2px;
-    box-shadow: 0 0 0 5px white;
+    outline: white solid 4px;
+    outline-offset: 4px;
 }
 
 #play_now .wrapper_a {
