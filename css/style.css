@@ -22,6 +22,11 @@
     width: 30px;
 }
 
+a.bg-dark:hover {
+    outline: white solid 2px;
+    box-shadow: 0 0 0 5px var(--bs-dark);
+}
+
 /***** section #jumbotron *****/
 #jumbotron {
     margin-top: 98px;
@@ -38,11 +43,12 @@
 #jumbotron .row a {
     background-color: var(--bg_orange);
     padding: 10px 15px;
+    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #jumbotron .row a:hover {
-    border: 2px solid white;
-    outline: var(--bg_orange) solid 2px;
+    outline: white solid 2px;
+    box-shadow: 0 0 0 5px var(--bg_orange);
 }
 
 #jumbotron h1 {
@@ -62,6 +68,11 @@
 #new .container-fluid div:nth-child(2) h2, 
 #new .container-fluid div:nth-child(3) h2 {
     font-size: 45px;
+}
+
+#new .wrapper-a a:hover {
+    outline: white solid 2px;
+    box-shadow: 0 0 0 5px var(--bs-primary);
 }
 
 #new .text-secondary {
@@ -90,11 +101,12 @@
 #jumbotwo .row a {
     background-color: var(--bg_orange);
     padding: 10px 15px;
+    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #jumbotwo .row a:hover {
-    border: 2px solid white;
-    outline: var(--bg_orange) solid 2px;
+    outline: white solid 2px;
+    box-shadow: 0 0 0 5px var(--bg_orange);
 }
 
 
@@ -140,6 +152,14 @@
     font-size: 2rem;
 }
 
+#play4 a {
+    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#play4 a:hover {
+    outline: white solid 2px;
+    box-shadow: 0 0 0 5px var(--bs-primary);
+}
 /***** section psplus *****/
 #psplus {
     background-color: var(--bg_light_grey);
@@ -153,11 +173,12 @@
     background-color: var(--bg_b_light_grey);
     font-weight: 600;
     padding: 10px 15px;
+    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #psplus .col-12 > a:hover {
-    border: 2px solid #2d64e6;
-    outline: var(--bg_b_light_grey) solid 2px;
+    outline: #2d64e6 solid 2px;
+    box-shadow: 0 0 0 5px rgb(217, 218, 220);
 }
 
 #psplus .wrapper_a {
@@ -174,7 +195,7 @@
     font-weight: 500;
 }
 
-/***** section play station plus *****/
+/***** section play station now *****/
 #play_now {
     background-color: var(--bg_dark_blue);
 }
@@ -187,11 +208,12 @@
     font-weight: 600;
     padding: 10px 15px;
     color: var(--c_dark_blue) !important;
+    transition: outline .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #play_now .col-12 > a:hover {
-    border: 2px solid var(--bg_dark_blue);
-    outline: white solid 2px;
+    outline: var(--bg_dark_blue) solid 2px;
+    box-shadow: 0 0 0 5px white;
 }
 
 #play_now .wrapper_a {
@@ -211,6 +233,10 @@ footer {
 
 [src*="sie"] {
     width: 150px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /***** mediaquery *****/
