@@ -40,6 +40,11 @@
     padding: 10px 15px;
 }
 
+#jumbotron .row a:hover {
+    border: 2px solid white;
+    outline: var(--bg_orange) solid 2px;
+}
+
 #jumbotron h1 {
     font-size: 2.5rem;
 }
@@ -68,6 +73,10 @@
     font-weight: 500;
 }
 
+.m_height_vr {
+    min-height: 62px;
+}
+
 /***** section jumbotwo *****/
 #jumbotwo {
     padding: 50px 0 100px;
@@ -82,6 +91,12 @@
     background-color: var(--bg_orange);
     padding: 10px 15px;
 }
+
+#jumbotwo .row a:hover {
+    border: 2px solid white;
+    outline: var(--bg_orange) solid 2px;
+}
+
 
 #jumbotwo h1 {
     font-size: 2.5rem;
@@ -124,6 +139,42 @@
 #play4 h5.card-title {
     font-size: 2rem;
 }
+
+/***** section psplus *****/
+#psplus {
+    background-color: var(--bg_light_grey);
+}
+
+#psplus .col-12 > p {
+    font-weight: 600;
+}
+
+#psplus .col-12 > a {
+    background-color: var(--bg_b_light_grey);
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+#psplus .col-12 > a:hover {
+    border: 2px solid #2d64e6;
+    outline: var(--bg_b_light_grey) solid 2px;
+}
+
+#psplus .wrapper_a {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
