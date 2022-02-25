@@ -196,10 +196,6 @@ a.bg-dark:hover {
     background-color: var(--bg_light_grey);
 }
 
-#psplus .col-12 > p {
-    font-weight: 600;
-}
-
 #psplus .col-12 > a {
     background-color: var(--bg_b_light_grey);
     font-weight: 600;
@@ -230,10 +226,6 @@ a.bg-dark:hover {
 /***** section play station now *****/
 #play_now {
     background-color: var(--bg_dark_blue);
-}
-
-#play_now .col-12 > p {
-    font-weight: 600;
 }
 
 #play_now .col-12 > a {
