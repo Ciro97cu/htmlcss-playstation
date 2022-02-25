@@ -89,6 +89,26 @@
     font-size: 1.2rem;
 }
 
+/***** section soon *****/
+#soon .mb-3 > h2 {
+    font-size: 2rem;
+}
+
+#soon .mb-3 > p {
+    font-size: 1.6rem;
+}
+
+#soon [src*="crash"], 
+#soon [src*="tony"]{
+    border-radius: 20px;
+}
+
+#soon [src*="crash"] + h3, 
+#soon [src*="tony"] + h3 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
 /***** mediaquery *****/
 @media screen and (min-width: 768px) {
     #new .image_low {

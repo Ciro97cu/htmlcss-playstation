@@ -29,3 +29,7 @@ a {
 .row_gap {
     row-gap: 20px;
 }
+
+.row_gap_lg {
+    row-gap: 40px;
+}
