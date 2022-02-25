@@ -12,6 +12,8 @@ body {
     --bg_orange: #cd3d0f;
     --bg_light_grey: #bebcbb;
     --bg_b_light_grey: #d9dadc;
+    --bg_dark_blue: #161c3b;
+    --c_dark_blue: #161c3b;
 }
 
 /***** reset padding for heading and paragraph *****/

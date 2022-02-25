@@ -174,7 +174,29 @@
     font-weight: 500;
 }
 
+/***** section play station plus *****/
+#play_now {
+    background-color: var(--bg_dark_blue);
+}
 
+#play_now .col-12 > p {
+    font-weight: 600;
+}
+
+#play_now .col-12 > a {
+    font-weight: 600;
+    padding: 10px 15px;
+    color: var(--c_dark_blue) !important;
+}
+
+#play_now .col-12 > a:hover {
+    border: 2px solid var(--bg_dark_blue);
+    outline: white solid 2px;
+}
+
+#play_now .wrapper_a {
+    margin-top: 10px;
+}
 
 
 
