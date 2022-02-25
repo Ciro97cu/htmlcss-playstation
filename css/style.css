@@ -164,6 +164,15 @@
     margin-top: 10px;
 }
 
+/***** section ps-store *****/
+#ps_store .col-12 > h2 {
+    font-size: 2.5rem;
+}
+
+#ps_store .col-12 > p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
 
 
 
