@@ -31,6 +31,19 @@ a.bg-dark:hover {
     outline-offset: 2px;
 }
 
+.initial {
+    position: initial;
+}
+
+.dropdown-item {
+    display: inline-block;
+    width: auto;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 95%;
+}
+
 /***** section #jumbotron *****/
 #jumbotron {
     margin-top: 98px;
@@ -107,7 +120,7 @@ a.bg-dark:hover {
     outline: 5px solid #2d64e6;
 }
 
-.offset-md-1 {
+.bord_pri {
     box-shadow: 0 3px 0 var(--bs-primary);
 }
 
