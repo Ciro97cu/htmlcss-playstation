@@ -118,6 +118,7 @@ a.bg-dark:hover {
     transform: translateY(-25px);
     outline-offset: 4px;
     outline: 5px solid #2d64e6;
+    box-shadow: 15px 30px 10px rgba(0, 0, 0, 0.4);
 }
 
 .bord_pri {
