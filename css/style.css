@@ -117,7 +117,7 @@
 }
 
 #soon [src*="crash"], 
-#soon [src*="tony"]{
+#soon [src*="tony"] {
     border-radius: 20px;
 }
 
@@ -141,10 +141,6 @@
     font-size: 2rem;
 }
 
-#play4 a:hover {
-    outline: var(--bs-primary) solid 4px;
-    outline-offset: 2px;
-}
 /***** section psplus *****/
 #psplus {
     background-color: var(--bg_light_grey);

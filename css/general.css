@@ -128,3 +128,13 @@ a.bg-dark:hover {
     outline: white solid 3px;
     outline-offset: 5px;
 }
+
+/*** hover section play4 ***/
+#play4 a:hover {
+    outline: white solid 2px;
+    outline-offset: -6px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(13, 110, 253);
+}
