@@ -175,12 +175,6 @@
     font-weight: 600;
     padding: 10px 15px;
     color: var(--c_dark_blue) !important;
-    transition: outline .15s ease-in-out;
-}
-
-#play_now .col-12 > a:hover {
-    outline: white solid 4px;
-    outline-offset: 4px;
 }
 
 #play_now .wrapper_a {

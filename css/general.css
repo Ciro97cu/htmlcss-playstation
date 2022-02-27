@@ -165,3 +165,13 @@ a.bg-dark:hover {
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
 }
+
+/*** hover play station now ***/
+#play_now .col-12 > a {
+    transition: all .15s ease-in-out;
+}
+
+#play_now .col-12 > a:hover {
+    outline: var(--bg_dark_blue) solid 3px;
+    outline-offset: -6px;
+}
