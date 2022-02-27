@@ -130,6 +130,10 @@ a.bg-dark:hover {
 }
 
 /*** hover section play4 ***/
+#play4 a {
+    transition: all .15s ease-in-out;
+}
+
 #play4 a:hover {
     outline: white solid 2px;
     outline-offset: -6px;
