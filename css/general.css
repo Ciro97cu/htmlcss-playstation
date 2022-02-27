@@ -152,3 +152,16 @@ a.bg-dark:hover {
     outline: var(--bs-primary) solid 3px;
     outline-offset: -6px;
 }
+
+/*** hover section playstation store  ***/
+#ps_store img {
+    transition: all .25s ease-in-out;
+}
+
+#ps_store a:hover img {
+    transform: scale(0.9);
+    box-shadow: 25px 25px  10px rgba(240, 49, 234, 0.2);
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
