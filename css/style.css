@@ -150,13 +150,6 @@
     background-color: var(--bg_b_light_grey);
     font-weight: 600;
     padding: 10px 15px;
-    transition: outline .15s ease-in-out;
-
-}
-
-#psplus .col-12 > a:hover {
-    outline: var(--bs-primary) solid 4px;
-    outline-offset: 5px;
 }
 
 #psplus .wrapper_a {

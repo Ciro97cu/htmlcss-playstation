@@ -142,3 +142,13 @@ a.bg-dark:hover {
 .btn-primary:hover {
     background-color: rgb(13, 110, 253);
 }
+
+/*** hover section psplus ***/
+#psplus .col-12 > a {
+    transition: all .15s ease-in-out;
+}
+
+#psplus .col-12 > a:hover {
+    outline: var(--bs-primary) solid 3px;
+    outline-offset: -6px;
+}
