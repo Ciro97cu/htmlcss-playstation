@@ -97,12 +97,6 @@
 #jumbotwo .row a {
     background-color: var(--bg_orange);
     padding: 10px 15px;
-    transition: outline .15s ease-in-out;
-}
-
-#jumbotwo .row a:hover {
-    outline: var(--bg_orange) solid 3px;
-    outline-offset: 4px;
 }
 
 #jumbotwo h1 {

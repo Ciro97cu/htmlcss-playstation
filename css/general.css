@@ -96,7 +96,7 @@ a.bg-dark:hover {
     outline-offset: -6px;
 }
 
-/* section new hover tools play5 */
+/* hover section new tools play5 */
 .hover_opacity, 
 .hover_opacity > img {
     transition: all .25s ease-in-out;
@@ -110,4 +110,14 @@ a.bg-dark:hover {
 .hover_opacity:hover > img {
     opacity: 1 !important;
     transform: scale(1.1);
+}
+
+/*** hover section jumbotwo ***/
+#jumbotwo .row a {
+    transition: all .15s ease-in-out;
+}
+
+#jumbotwo .row a:hover {
+    outline: black solid 4px;
+    outline-offset: -6px;
 }
