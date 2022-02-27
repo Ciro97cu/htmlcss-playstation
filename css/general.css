@@ -121,3 +121,10 @@ a.bg-dark:hover {
     outline: black solid 4px;
     outline-offset: -6px;
 }
+
+/*** hover section soon ***/
+#soon [src*="crash"]:hover, 
+#soon [src*="tony"]:hover {
+    outline: white solid 3px;
+    outline-offset: 5px;
+}
