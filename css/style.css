@@ -19,25 +19,11 @@
 }
 
 [src*="lens"] {
-    width: 30px;
-}
-
-a.bg-dark:hover {
-transition: outline .15s ease-in-out;
-}
-
-a.bg-dark:hover {
-    outline: var(--bs-dark) solid 4px;
-    outline-offset: 2px;
+    width: 25px;
 }
 
 .initial {
     position: initial;
-}
-
-.dropdown-item {
-    display: inline-block;
-    width: auto;
 }
 
 .dropdown-menu[data-bs-popper] {

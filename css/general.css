@@ -38,3 +38,19 @@ a {
 .row_gap_lg {
     row-gap: 40px;
 }
+
+/***** hover sections *****/
+/* hover header */
+a.bg-dark:hover,
+[src*="lens"]:hover {
+    transition: all .15s ease-in-out;
+}
+    
+a.bg-dark:hover {
+    outline: white solid 3px;
+    outline-offset: -6px;
+}
+
+[src*="lens"]:hover {
+    transform: scale(1.3);
+}
