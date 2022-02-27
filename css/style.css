@@ -67,15 +67,6 @@
     font-size: 45px;
 }
 
-#new .wrapper-a a {
-    transition: outline .15s ease-in-out;
-}
-
-#new .wrapper-a a:hover {
-    outline: var(--bs-primary) solid 4px;
-    outline-offset: 2px;
-}
-
 #new .text-secondary {
     font-weight: 500;
     font-size: 20px;
@@ -89,33 +80,8 @@
     min-height: 62px;
 }
 
-#new .col-lg-2 > img {
-    transition: transform .5s ease-in-out;
-    cursor: pointer;
-}
-
-#new .col-lg-2:hover > img{
-    transform: translateY(-25px);
-    outline-offset: 4px;
-    outline: 5px solid #2d64e6;
-    box-shadow: 15px 30px 10px rgba(0, 0, 0, 0.4);
-}
-
 .bord_pri {
     box-shadow: 0 3px 0 var(--bs-primary);
-}
-
-.hover_opacity {
-    transition: box-shadow .25s ease-in-out;
-}
-
-.hover_opacity:hover {
-    box-shadow: 0 3px 0 var(--bs-primary);
-    cursor: pointer;
-}
-
-.hover_opacity:hover > img {
-    opacity: 1 !important;
 }
 
 /***** section jumbotwo *****/
@@ -258,12 +224,6 @@ footer a:hover {
 }
 
 /***** mediaquery *****/
-@media screen and (min-width: 768px) {
-    #new .image_low {
-        width: 75% !important;
-    }
-}
-
 @media screen and (min-width: 1480px) {
     #jumbotron {
         padding: 350px 0 300px;

@@ -40,14 +40,14 @@ a {
 }
 
 /***** hover sections *****/
-/* hover header */
+/*** hover header ***/
 a.bg-dark:hover,
 [src*="lens"]:hover {
     transition: all .15s ease-in-out;
 }
     
 a.bg-dark:hover {
-    outline: white solid 3px;
+    outline: white solid 2px;
     outline-offset: -6px;
 }
 
@@ -55,7 +55,7 @@ a.bg-dark:hover {
     transform: scale(1.3);
 }
 
-/* hover jumbotron */
+/*** hover jumbotron ***/
 #jumbotron .row a {
     transition: all .15s ease-in-out;
 }
@@ -63,4 +63,51 @@ a.bg-dark:hover {
 #jumbotron .row a:hover {
     outline: black solid 4px;
     outline-offset: -6px;
+}
+
+/*** hover section new ***/
+
+/* hover section new card-game */
+#new .col-lg-2:hover > img{
+    outline-offset: 4px;
+    outline: 5px solid #2d64e6;
+    box-shadow: 15px 30px 10px rgba(0, 0, 0, 0.4);
+}
+
+.top_stop {
+    transition-duration: .5s;
+    transition-property: transform;
+    transform-origin: 0 100%;
+}
+
+.top_stop:hover,
+.top_stop:focus,
+.top_stop:active {
+    transform: translateY(-20px);
+}
+
+/* hover section new button */
+#new .wrapper-a a {
+    transition: all .15s ease-in-out;
+}
+
+#new .wrapper-a a:hover {
+    outline: white solid 2px;
+    outline-offset: -6px;
+}
+
+/* section new hover tools play5 */
+.hover_opacity, 
+.hover_opacity > img {
+    transition: all .25s ease-in-out;
+}
+
+.hover_opacity:hover {
+    box-shadow: 0 3px 0 var(--bs-primary);
+    cursor: pointer;
+}
+
+.hover_opacity:hover > img {
+    opacity: 1 !important;
+    transform: scale(1.1);
 }
