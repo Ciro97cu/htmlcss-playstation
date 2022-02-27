@@ -187,17 +187,17 @@ footer {
     font-size: 0.8rem;
 }
 
-.globe {
+footer ul {
+    list-style-type: none;
+}
+
+footer .globe {
     width: 15px;
     margin-right: 5px;
 }
 
-[src*="sie"] {
+footer [src*="sie"] {
     width: 150px;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 /***** mediaquery *****/
