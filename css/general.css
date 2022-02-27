@@ -54,3 +54,13 @@ a.bg-dark:hover {
 [src*="lens"]:hover {
     transform: scale(1.3);
 }
+
+/* hover jumbotron */
+#jumbotron .row a {
+    transition: all .15s ease-in-out;
+}
+
+#jumbotron .row a:hover {
+    outline: black solid 4px;
+    outline-offset: -6px;
+}
