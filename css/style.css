@@ -4,7 +4,7 @@
 }
 
 .dropdown a::after {
-    content: none;
+    display: none;
 }
 
 .dropdown a, 
