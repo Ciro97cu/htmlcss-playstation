@@ -119,7 +119,7 @@ a.bg-dark:hover {
 
 .hover_opacity:hover > img {
     opacity: 1 !important;
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(-20px);
 }
 
 /*** hover section jumbotwo ***/

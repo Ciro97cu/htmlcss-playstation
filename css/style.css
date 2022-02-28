@@ -22,10 +22,6 @@
     width: 25px;
 }
 
-.initial {
-    position: initial;
-}
-
 .dropdown-menu[data-bs-popper] {
     top: 95%;
 }
